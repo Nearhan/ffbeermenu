@@ -1,0 +1,7 @@
+Django==1.5
+South==0.7.6
+django-grappelli==2.4.4
+ipdb==0.7
+ipython==0.13.1
+psycopg2==2.4.6
+wsgiref==0.1.2

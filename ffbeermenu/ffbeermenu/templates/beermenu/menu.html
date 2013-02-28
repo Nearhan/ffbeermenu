@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% block css %}
+            <link rel="stylesheet" href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css"/>
+        {% endblock %}
+    </head>
+    <body>
+        {% for beer in object %}
+            <h1> {{ beer.display }} </h1>
+        {% endfor %}
+
+
+
+        <script src="{{ STATIC_URL }}bootstrap/js/bootstrap.js"></script>
+    </body>
+</html>
