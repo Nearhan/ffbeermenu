@@ -1,0 +1,21 @@
+body {
+
+    background-image:   url('../images/FFBWeb.jpg');
+    background-size: 100%;
+    padding: 125px 25px 0px 30px;
+}
+
+.menu {
+    list-style-type: none;
+}
+
+.menu li {
+    font-size: 50px;
+    padding: 20px 0 60px 0;
+    color: #FFF;
+}
+
+.price {
+    display: block;
+    text-align: right;
+}

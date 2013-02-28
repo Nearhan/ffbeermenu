@@ -3,12 +3,16 @@
     <head>
         {% block css %}
             <link rel="stylesheet" href="{{ STATIC_URL }}bootstrap/css/bootstrap.min.css"/>
+            <link rel="stylesheet" href="{{ STATIC_URL }}css/base.css"/>
         {% endblock %}
     </head>
     <body>
-        {% for beer in object %}
-            <h1> {{ beer.display }} </h1>
-        {% endfor %}
+        <ul class='menu'>
+            {% for beer in object %}
+                <li> {{ beer.display }} <span class='price'> 
+                    {{ beer.display_price }} </span> </li>
+            {% endfor %}
+        </ul>
 
 
 
