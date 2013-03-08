@@ -7,7 +7,7 @@ class BeerMenuView(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(BeerMenuView, self).get_context_data(**kwargs)
-        menu = Menu.objects.get(pk=1)
+        menu = Menu.objects.all()[0]
         context['object'] = menu.beer_set.order_by('position')
         return context
 
