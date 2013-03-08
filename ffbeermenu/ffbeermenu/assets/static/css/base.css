@@ -1,14 +1,13 @@
 body {
 
     background-image:   url('../images/FFBWeb.jpg');
-    background-size: 100%;
+    background-size: cover;
     padding: 125px 25px 0px 15px;
     margin: auto;
 }
 
 .menu {
     list-style-type: none;
-
 }
 
 .menu li {
@@ -18,8 +17,6 @@ body {
     height: 55px;
     padding-top: 20px;
     margin-bottom: 23px;
-
-
 }
 
 .name {
