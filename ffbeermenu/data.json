@@ -8,12 +8,12 @@
   "pk": 27, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "1", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AF", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 0, 
     "type": "L"
   }
@@ -22,12 +22,12 @@
   "pk": 28, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "2", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AF", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 1, 
     "type": "L"
   }
@@ -36,12 +36,12 @@
   "pk": 29, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "3", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 2, 
     "type": "L"
   }
@@ -50,12 +50,12 @@
   "pk": 30, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "4", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 3, 
     "type": "L"
   }
@@ -64,12 +64,12 @@
   "pk": 31, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "5", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 4, 
     "type": "I"
   }
@@ -78,12 +78,12 @@
   "pk": 32, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "6", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 5, 
     "type": "L"
   }
@@ -92,12 +92,12 @@
   "pk": 33, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "5", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 6, 
     "type": "L"
   }
@@ -106,12 +106,12 @@
   "pk": 34, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "6", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AF", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 7, 
     "type": "I"
   }
@@ -120,12 +120,12 @@
   "pk": 35, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "7", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 8, 
     "type": "I"
   }
@@ -134,12 +134,12 @@
   "pk": 36, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "8", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 9, 
     "type": "I"
   }
@@ -148,12 +148,12 @@
   "pk": 37, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "9", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 10, 
     "type": "W"
   }
@@ -162,12 +162,12 @@
   "pk": 38, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "10", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 11, 
     "type": "W"
   }
@@ -176,12 +176,12 @@
   "pk": 39, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "11", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 12, 
     "type": "L"
   }
@@ -190,12 +190,12 @@
   "pk": 40, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "13", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AF", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 13, 
     "type": "A"
   }
@@ -204,12 +204,12 @@
   "pk": 41, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "14", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 14, 
     "type": "I"
   }
@@ -218,12 +218,12 @@
   "pk": 42, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "15", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "DZ", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 15, 
     "type": "I"
   }
@@ -232,12 +232,12 @@
   "pk": 43, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "17", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "DZ", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 16, 
     "type": "A"
   }
@@ -246,12 +246,12 @@
   "pk": 44, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "16", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AF", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 17, 
     "type": "I"
   }
@@ -260,12 +260,12 @@
   "pk": 45, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "18", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 18, 
     "type": "W"
   }
@@ -274,12 +274,12 @@
   "pk": 46, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "19", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 19, 
     "type": "W"
   }
@@ -288,12 +288,12 @@
   "pk": 47, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "20", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 20, 
     "type": "I"
   }
@@ -302,12 +302,12 @@
   "pk": 48, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "21", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
     "location": "AL", 
-    "abv": 12.0, 
+    "abv": 12, 
     "position": 21, 
     "type": "W"
   }
@@ -316,12 +316,12 @@
   "pk": 49, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "22", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 22, 
     "type": "W"
   }
@@ -330,12 +330,12 @@
   "pk": 50, 
   "model": "beermenu.beer", 
   "fields": {
-    "price_of_glass": 12.0, 
+    "price_of_glass": 12, 
     "name": "23", 
-    "price_of_4oz": 12.0, 
+    "price_of_4oz": 12, 
     "menu": 2, 
-    "location": "AX", 
-    "abv": 12.0, 
+    "location": "VA", 
+    "abv": 12, 
     "position": 23, 
     "type": "I"
   }

@@ -14,10 +14,11 @@ body {
 
 .menu li {
 
-    font-size: 30px;
+    font-size: 35px;
     color: #FFF;
-    height: 55px;
+    height: 40px;
     margin-bottom: 10px;
+    padding-top: 15px;
     background-color: rgba(0, 0, 0, .5);
 }
 

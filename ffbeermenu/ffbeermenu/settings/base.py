@@ -108,7 +108,6 @@ INSTALLED_APPS = (
     'django.contrib.admindocs',
     'south',
     'ffbeermenu.apps.beermenu',
-    'django_countries',
 )
 
 # A sample logging configuration. The only tangible logging
