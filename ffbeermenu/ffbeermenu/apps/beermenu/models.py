@@ -19,12 +19,12 @@ class Beer(models.Model):
         ('Local', 'Local'),
     )
     menu = models.ForeignKey(Menu)
-    name = models.CharField(max_length=30)
+    name = models.CharField(max_length=50)
     type = models.CharField(max_length=10, choices=TYPES_OF_BEER)
     location = models.CharField(max_length=3, choices=LOCATIONS)
-    price_of_4oz = models.PositiveSmallIntegerField(max_length=3)
-    price_of_glass = models.PositiveSmallIntegerField(max_length=3)
-    abv = models.PositiveSmallIntegerField(max_length=3)
+    price_of_4oz = models.CharField(max_length=5)
+    price_of_glass = models.CharField(max_length=5)
+    abv = models.CharField(max_length=5)
     position = models.PositiveSmallIntegerField('Position')
 
     class Meta:
