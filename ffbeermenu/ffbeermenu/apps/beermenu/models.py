@@ -21,7 +21,7 @@ class Beer(models.Model):
     menu = models.ForeignKey(Menu)
     name = models.CharField(max_length=30)
     type = models.CharField(max_length=10, choices=TYPES_OF_BEER)
-    location = models.CharField(max_length=25, choices=LOCATIONS)
+    location = models.CharField(max_length=3, choices=LOCATIONS)
     price_of_4oz = models.PositiveSmallIntegerField(max_length=3)
     price_of_glass = models.PositiveSmallIntegerField(max_length=3)
     abv = models.PositiveSmallIntegerField(max_length=3)
