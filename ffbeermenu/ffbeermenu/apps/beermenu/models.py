@@ -11,16 +11,16 @@ class Menu(models.Model):
 
 class Beer(models.Model):
     TYPES_OF_BEER = (
-        ('L', 'Lager'),
-        ('I', 'IPA'),
-        ('W', 'White'),
-        ('A', 'Ale'),
-        ('S', 'Seasonal'),
-        ('Lo', 'Local'),
+        ('Lager', 'Lager'),
+        ('IPA', 'IPA'),
+        ('White', 'White'),
+        ('Ale', 'Ale'),
+        ('Seasonal', 'Seasonal'),
+        ('Local', 'Local'),
     )
     menu = models.ForeignKey(Menu)
     name = models.CharField(max_length=30)
-    type = models.CharField(max_length=2, choices=TYPES_OF_BEER)
+    type = models.CharField(max_length=8, choices=TYPES_OF_BEER)
     location = models.CharField(max_length=3, choices=LOCATIONS)
     price_of_4oz = models.PositiveSmallIntegerField(max_length=3)
     price_of_glass = models.PositiveSmallIntegerField(max_length=3)
@@ -36,7 +36,7 @@ class Beer(models.Model):
         return output
 
     def display(self):
-        output = '{0} | {1} | {2} | {3}'.format(self.type, self.name,
+        output = '{0} | {1} | {2} | {3}%'.format(self.type, self.name,
                                                 self.location, self.abv)
         return output
 
