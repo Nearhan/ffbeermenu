@@ -19,7 +19,7 @@ class Beer(models.Model):
         ('Local', 'Local'),
     )
     menu = models.ForeignKey(Menu)
-    name = models.CharField(max_length=35)
+    name = models.CharField(max_length=30)
     type = models.CharField(max_length=10, choices=TYPES_OF_BEER)
     location = models.CharField(max_length=3, choices=LOCATIONS)
     price_of_4oz = models.CharField(max_length=5)
